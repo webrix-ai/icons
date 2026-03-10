@@ -31,3 +31,4 @@ https://<your-pages-domain>/sso-providers/{provider}.svg
 ## Deployment
 
 Connect this repo to a Cloudflare Pages project (no build command, publish directory: `/`).
+# icons
