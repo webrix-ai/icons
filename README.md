@@ -1,4 +1,4 @@
-# mcp-s-icons
+# icons
 
 Static icon assets served via Cloudflare Pages CDN.
 
@@ -16,19 +16,14 @@ sso-providers/       # SSO provider icons
 
 Icons are served at:
 ```
-https://<your-pages-domain>/connectors/{id}.svg
-https://<your-pages-domain>/connectors-dark/{id}.svg
-https://<your-pages-domain>/ai-hosts/{slug}.svg
-https://<your-pages-domain>/ai-hosts-dark/{slug}.svg
-https://<your-pages-domain>/sso-providers/{provider}.svg
+https://icons.webrix.workers.dev/connectors/{id}.svg
+https://icons.webrix.workers.dev/connectors-dark/{id}.svg
+https://icons.webrix.workers.dev/ai-hosts/{slug}.svg
+https://icons.webrix.workers.dev/ai-hosts-dark/{slug}.svg
+https://icons.webrix.workers.dev/sso-providers/{provider}.svg
 ```
 
 ## Adding new icons
 
 1. Add the SVG file to the appropriate folder (both light and dark variants)
 2. Commit and push — Cloudflare Pages deploys automatically
-
-## Deployment
-
-Connect this repo to a Cloudflare Pages project (no build command, publish directory: `/`).
-# icons
