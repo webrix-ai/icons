@@ -1,0 +1,11 @@
+{
+  "name": "@webrix-ai/icons",
+  "version": "0.0.0",
+  "description": "Webrix icons",
+  "files": [
+    "public"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
